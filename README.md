@@ -8,7 +8,7 @@ Get VisualStudio Code from [here.](https://code.visualstudio.com/Download "vscod
 
 Run these three lines in your terminal.
 
-```bash
+```sh
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
@@ -31,19 +31,19 @@ Get NodeJS from [here.](https://nodejs.org/en/download/)
 
 If are not going to initialize again (use this most of the time)
 
-```JS
+```js
 const four = 4
 ```
 
 If you are going to initialize again
 
-```JS
+```js
 let four = 4
 ```
 
 ## Control
 
-```JS
+```js
 if (four == 4) {
   console.log("is four")
 } else {
@@ -55,7 +55,7 @@ if (four == 4) {
 
 Regular for loops
 
-```JS
+```js
 for (let i = 0; i < 4; i++) {
   console.log(i)
 }
@@ -63,7 +63,7 @@ for (let i = 0; i < 4; i++) {
 
 While loop
 
-```JS
+```js
 let i = 0
 while (i < 4) {
   console.log(i)
@@ -75,7 +75,7 @@ while (i < 4) {
 
 Regular functions
 
-```JS
+```js
 function addFour(n) {
   return n + 4
 }
@@ -83,7 +83,7 @@ function addFour(n) {
 
 New stateless functions
 
-```JS
+```js
 const addFour = (n) => {
   return n + 4
 }
@@ -91,7 +91,7 @@ const addFour = (n) => {
 
 or
 
-```JS
+```js
 const addFour = n => n + 4
 ```
 
