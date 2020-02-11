@@ -95,3 +95,44 @@ or
 const addFour = n => n + 4
 ```
 
+## Arrays
+
+```js
+const arr = ["zero", "one", "two", "three", "four"]
+```
+
+then iterate through them
+
+```js
+arr.forEach(str => {
+  console.log(str)
+})
+```
+
+or add four to each element
+
+```js
+const newArr = arr.map(str => str + 4)
+```
+
+## Objects
+
+```js
+const obj = {
+  name: "Caleb",
+  favoriteNumbers: [
+    2,
+    4,
+    42
+  ],
+  anotherObj: {
+    nestedProp: "🇨🇦"
+  }
+}
+```
+
+accessing properties
+
+```js
+const canadaEmoji = obj.anotherObj.nestedProp
+```
