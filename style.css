@@ -1,0 +1,9 @@
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 250px;
+    display: block;
+    transform: rotate(20deg);
+}
