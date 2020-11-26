@@ -67,11 +67,9 @@ const makeHeader = (title) => {
 
 makeHeader("JavaScript Workshop")
 
-const image = document.createElement("img")
-image.src = "assets/0.jpg"
-image.alt = "a big 0"
-document.body.append(image)
-
-// for (let i = 0; i < 5; i++) {
-//     const path = ""
-// }
+for (let i = 0; i < 5; i++) {
+    const image = document.createElement("img")
+    image.src = "assets/" + i + ".jpg"
+    image.alt = "a big 0"
+    document.body.append(image)
+}
