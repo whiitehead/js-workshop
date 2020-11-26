@@ -1,6 +1,5 @@
 console.log("hello")
 
-
 let four = 4
 
 four = 3
@@ -41,3 +40,18 @@ setInterval(() => {
     console.log(n)
     n++
 }, 500)
+
+const arr = [
+    1,
+    2,
+    3,
+    "other thing"
+]
+
+const images = document.querySelectorAll("img")
+
+for (let i = 0; i < images.length; i++) {
+    images[i].onmouseenter = () => {
+        images[i].style.transform = "rotate(90deg)"
+    }
+}
