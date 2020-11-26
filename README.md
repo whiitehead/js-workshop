@@ -20,10 +20,10 @@ Get NodeJS from [here.](https://nodejs.org/en/download/)
 
 # Developer Tools
 
-| Browser | Console  | Inspector |
-| :------ | :------: | :-------: |
-| 🔥🦊    | Ctrl + K | Ctrl + C  |
-| Chrome  | Ctrl + J | Ctrl + C  |
+| Browser |     Console      |    Inspector     |
+| :------ | :--------------: | :--------------: |
+| 🔥🦊      | Ctrl + Shift + K | Ctrl + Shift + C |
+| Chrome  | Ctrl + Shift + J | Ctrl + Shift + C |
 
 # JavaScript Basics
 
@@ -131,8 +131,14 @@ const obj = {
 }
 ```
 
-accessing properties
+Access the properties with:
 
 ```js
 const canadaEmoji = obj.anotherObj.nestedProp
+```
+
+or:
+
+```js
+const canadaEmoji = obj["anotherObj"]["nestedProp"]
 ```
