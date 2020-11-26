@@ -1,3 +1,4 @@
+
 console.log("hello")
 
 let four = 4
@@ -55,3 +56,22 @@ for (let i = 0; i < images.length; i++) {
         images[i].style.transform = "rotate(90deg)"
     }
 }
+
+// <h1>JavaScript Workshop</h1>
+
+const makeHeader = (title) => {
+    const header = document.createElement("h1")
+    header.innerText = title
+    document.body.append(header)
+}
+
+makeHeader("JavaScript Workshop")
+
+const image = document.createElement("img")
+image.src = "assets/0.jpg"
+image.alt = "a big 0"
+document.body.append(image)
+
+// for (let i = 0; i < 5; i++) {
+//     const path = ""
+// }
