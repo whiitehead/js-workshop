@@ -9,6 +9,8 @@ document.body.append(makeHeader("JavaScript Workshop"))
 for (let i = 0; i < 5; i++) {
     const image = document.createElement("img")
     image.setAttribute("src", "assets/" + i + ".jpg")
+    image.onmouseenter = () => image.style.transform = "rotate(90deg)"
+    image.onmouseleave = () => image.style.transform = "rotate(0deg)"
     document.body.append(image)
 }
 
